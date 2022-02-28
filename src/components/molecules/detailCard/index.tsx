@@ -1,1 +1,1 @@
-export * from './detailCard';
+export { DetailCard } from './detailCard';

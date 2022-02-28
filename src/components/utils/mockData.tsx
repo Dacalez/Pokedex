@@ -12,7 +12,8 @@ export const POKEMON_DETAIL_MOCK_DATA: PokemonDetailModel = {
   height: 3,
   weight: 32,
   moves: 'Poison-sting',
-  mainImage: './weedle.png',
+  mainImage:
+    'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/13.png',
   spriteImage: '',
   firstAppareance: 'Red'
 };

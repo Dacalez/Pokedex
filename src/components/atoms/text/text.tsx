@@ -2,7 +2,7 @@ import * as React from 'react';
 import { TEXT_TYPE } from '../../../consts';
 import './text.scss';
 
-interface Props {
+export interface Props {
   type: TEXT_TYPE;
   content: string;
 }

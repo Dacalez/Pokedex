@@ -6,7 +6,7 @@ import { PokemonDetailModel } from '../../viewModel';
 
 import './pokemonDetail.scss';
 
-interface Props {
+export interface Props {
   pokemonDetail: PokemonDetailModel;
 }
 

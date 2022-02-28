@@ -1,1 +1,1 @@
-export * from './pokemonSelection';
+export { PokemonSelection } from './pokemonSelection';

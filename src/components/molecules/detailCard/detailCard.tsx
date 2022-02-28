@@ -4,7 +4,7 @@ import { TEXT_TYPE } from '../../../consts';
 
 import './detailCard.scss';
 
-interface Props {
+export interface Props {
   title: string;
   labeledDetails: { [key: string]: string };
   bottomText: string;

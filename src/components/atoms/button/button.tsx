@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './button.scss';
 
-interface Props {
+export interface Props {
   handleOnClick: () => void;
   content: JSX.Element;
   disabled?: boolean;

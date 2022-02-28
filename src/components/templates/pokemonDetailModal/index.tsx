@@ -1,1 +1,1 @@
-export * from './pokemonDetailModal';
+export { PokemonDetailModal } from './pokemonDetailModal';

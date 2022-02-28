@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IMAGE_TYPE, TEXT_TYPE } from '../../../consts';
 import { Button, Text, Image } from '../../atoms';
 
-interface Props {
+export interface Props {
   text: string;
   thumbnailSource: string;
   handleOnClick: () => void;

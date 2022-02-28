@@ -3,7 +3,7 @@ import { ThumbnailButton } from '../../molecules';
 import { UrlElementDto } from '../../viewModel';
 import './pokemonList.scss';
 
-interface Props {
+export interface Props {
   pokemonArray: UrlElementDto[];
   thumbnailImage: string;
   handleOnClick: (url: string) => void;

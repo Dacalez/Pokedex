@@ -19,6 +19,8 @@ describe('Button', () => {
     const { getByText } = render(
       <Button content={buttonContent} disabled={true} handleOnClick={mockHandleOnClick} />
     );
+    const button = getByText(contentText);
+    fireEvent.click(button);
     expect(mockHandleOnClick).not.toHaveBeenCalled();
   });
 });

@@ -5,7 +5,7 @@ import { PokemonDetailModel } from '../../viewModel';
 
 import './pokemonDetailModal.scss';
 
-interface Props {
+export interface Props {
   pokemonDetail: PokemonDetailModel;
   handleOnCloseModal: () => void;
 }

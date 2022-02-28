@@ -1,14 +1,15 @@
 import { fireEvent, render } from '@testing-library/react';
 import { POKEMON_ARRAY_MOCK_DATA, POKEMON_DETAIL_MOCK_DATA } from '../../utils/mockData';
+import { PokemonDetailModel, UrlElementDto } from '../../viewModel';
 import { Pokedex } from './pokedex';
 
-let mockPokemonArray = POKEMON_ARRAY_MOCK_DATA;
-let mockPreviousUrl = 'previousURL';
-let mockNextUrl = 'nextURL';
-let mockLoadingPokemonArray = false;
+let mockPokemonArray: UrlElementDto[] = POKEMON_ARRAY_MOCK_DATA;
+let mockPreviousUrl: string = 'previousURL';
+let mockNextUrl: string = 'nextURL';
+const mockLoadingPokemonArray = false;
 
-let mockPokemonDetail = POKEMON_DETAIL_MOCK_DATA;
-let mockLoadingPokemonDetail = false;
+let mockPokemonDetail: PokemonDetailModel = POKEMON_DETAIL_MOCK_DATA;
+const mockLoadingPokemonDetail: boolean = false;
 
 jest.mock('../../../api', () => ({
   usePokemonListAsyncHook: () => [

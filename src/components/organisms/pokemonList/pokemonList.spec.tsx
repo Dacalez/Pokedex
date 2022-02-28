@@ -7,7 +7,7 @@ const handleOnClick: () => void = jest.fn();
 
 describe('PokemonList', () => {
   it('should render properly', () => {
-    const { getByText, container } = render(
+    const { container } = render(
       <PokemonList
         pokemonArray={POKEMON_ARRAY_MOCK_DATA}
         thumbnailImage={thumbnailImage}
@@ -17,7 +17,7 @@ describe('PokemonList', () => {
     expect(container.getElementsByClassName('pokemon-list')[0].childNodes.length).toBe(2);
   });
   it('should call to the prop handleOnClic when the button is clicked', () => {
-    const { getByText, container } = render(
+    const { getByText } = render(
       <PokemonList
         pokemonArray={POKEMON_ARRAY_MOCK_DATA}
         thumbnailImage={thumbnailImage}

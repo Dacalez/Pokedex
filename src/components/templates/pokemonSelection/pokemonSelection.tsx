@@ -6,7 +6,7 @@ import { PokemonList } from '../../organisms';
 
 import './pokemonSelection.scss';
 
-interface Props {
+export interface Props {
   pokemonArray: UrlElementDto[];
   disablePrevButton: boolean;
   disableNextButton: boolean;

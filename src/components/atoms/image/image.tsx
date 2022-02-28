@@ -2,7 +2,7 @@ import * as React from 'react';
 import { IMAGE_TYPE } from '../../../consts';
 import './image.scss';
 
-interface Props {
+export interface Props {
   type: IMAGE_TYPE;
   source: string;
 }
