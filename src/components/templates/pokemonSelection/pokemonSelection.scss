@@ -1,0 +1,21 @@
+@import '../../common.scss';
+
+.pokemon-selection {
+  &__header {
+    background-color: $black-color;
+    color: $white-color;
+    text-align: center;
+    padding: 30px 0px;
+    margin-bottom: 30px;
+  }
+
+  &__content {
+    width: 80%;
+    display: block;
+    margin: 0px auto;
+
+    &___footer {
+      @include footer-buttons;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import '../../common.scss';
+
+$detail-card-bg-color: #dbdbd9;
+$detail-card-elements-margin: 3px;
+
+.detail-card {
+  margin: 25px;
+
+  .txt--title {
+    background-color: $detail-card-bg-color;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: $detail-card-elements-margin;
+  }
+
+  &__labeled-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: calc($detail-card-elements-margin/2);
+
+    .txt--label {
+      text-align: center;
+      background-color: $detail-card-bg-color;
+    }
+
+    .txt--text {
+      text-align: left;
+    }
+  }
+
+  .txt--text {
+    background-color: $white-color;
+
+    &:last-of-child {
+      min-height: 75px;
+    }
+  }
+}

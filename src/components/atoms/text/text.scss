@@ -1,0 +1,14 @@
+.txt {
+  margin: 0px;
+  padding: 5px;
+  font-size: 14px;
+
+  &--title {
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  &--label {
+    font-weight: bold;
+  }
+}

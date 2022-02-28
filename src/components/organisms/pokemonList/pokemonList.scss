@@ -1,0 +1,8 @@
+$pokemon-list-columns: 2;
+$pokemon-list-grid-grap: 15px;
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat($pokemon-list-columns, 1fr);
+  grid-gap: $pokemon-list-grid-grap;
+}

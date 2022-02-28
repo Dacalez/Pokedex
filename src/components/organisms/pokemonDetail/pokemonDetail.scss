@@ -1,0 +1,14 @@
+@import '../../common.scss';
+
+.pokemon-details {
+  @include flex-row;
+
+  &__info {
+    width: calc(100% - 400px);
+    &__title {
+      text-align: center;
+      background-color: $black-color;
+      color: $white-color;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+$large-image-height: 400px;
+$thumbnail-image-height: 25px;
+
+.img {
+  &--large {
+    height: $large-image-height;
+  }
+
+  &--thumbnail {
+    height: $thumbnail-image-height;
+  }
+}

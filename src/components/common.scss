@@ -1,0 +1,31 @@
+$black-color: #171417;
+$white-color: #f3e9ef;
+$red-color: #fe6039;
+$orange-color: #ff7c46;
+
+$disabled-btn-bg-color: #e4cd6e;
+
+$pokemon-detail-modal-content-bg: linear-gradient(
+  121deg,
+  rgba(254, 232, 234, 1) 0%,
+  rgba(248, 109, 71, 1) 62%,
+  rgba(254, 96, 57, 1) 100%
+);
+$pokemon-detail-modal-bg: #808080a6;
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin footer-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+/* This may be in another file*/
+#root {
+  min-height: 100vh;
+  background-color: $white-color;
+}

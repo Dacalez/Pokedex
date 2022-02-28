@@ -1,0 +1,19 @@
+@import '../../common.scss';
+
+.btn {
+  background-color: $orange-color;
+  color: $black-color;
+  border: 2px solid $black-color;
+  border-radius: 25px;
+  cursor: pointer;
+
+  &:disabled {
+    background-color: $disabled-btn-bg-color;
+  }
+
+  &__content {
+    @include flex-row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
