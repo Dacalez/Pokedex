@@ -3,9 +3,9 @@
 .pokemon-detail-modal {
   position: absolute;
   top: 0px;
-  bottom: 0px;
   right: 0px;
   left: 0px;
+  min-height: 100vh;
   background-color: $pokemon-detail-modal-bg;
 
   &__content {
